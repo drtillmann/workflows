@@ -13,7 +13,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
     inputs:
-      arm-deploiyment-type:
+      arm-deployment-type:
         description: 'ARM Deployment Type'
         required: true
         default: 'Incremental'
